@@ -7,7 +7,7 @@
 ### Installation
 In this folder...
 ````
-if yp
+vite
 ````
 
 ### Local run
