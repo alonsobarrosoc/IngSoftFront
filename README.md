@@ -1,18 +1,21 @@
 # IngSoftBack
 
 ## Requirements
-
+- node >= 16
+	- check if ``npm`` works
+- Install yarn globally
+	- ``npm i -g yarn`` (use ``sudo`` in unix)
 ## Getting started
 
 ### Installation
 In this folder...
 ````
-vite
+yarn install
 ````
 
 ### Local run
 ```
-vite run
+yarn dev
 ```
 ### Preview (the version of the project from a server)
 - It is just a little more picky about paths and relative paths
