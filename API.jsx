@@ -1,12 +1,12 @@
 import axios from 'axios'
 let API = ''
-let env = import.meta.env.VITE_ENV
-if (env === 'dev') {
-  API = 'http://localhost:5000/api'
-}
-else {
-  API = 'https://ingsoft-asesorias.herokuapp.com/api'
-}
+// let env = import.meta.env.VITE_ENV
+// if (env === 'dev') {
+//   API = 'http://localhost:5000/api'
+// }
+// else {
+// }
+API = 'https://ingsoft-asesorias.herokuapp.com/api'
 
 
 
