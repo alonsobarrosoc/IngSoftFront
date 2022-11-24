@@ -2,6 +2,7 @@ import React from 'react'
 import { useQuery } from 'react-query'
 import SearchBar from '../components/SearchBar'
 import { getAsesorias } from '../../API'
+import { Link } from 'react-router-dom'
 
 
 
@@ -36,7 +37,9 @@ export default function Dashboard() {
                   <div className="flex">
 
                     <p className='w-5/6'>{as.description}</p>
+                    <Link to = {`/curso?idAsesoria=${as.idAsesoria}`}>
                     <button className='bg-gradient-to-r from-purp to-blu p-2 font-semibold rounded-full'>Leer más +</button>
+                    </Link>
                   </div>
                 </div>
               ))}
